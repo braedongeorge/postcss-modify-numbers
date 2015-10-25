@@ -1,6 +1,6 @@
 var postcss = require('postcss');
 
-module.exports = postcss.plugin('postcss-modify-all', function (opts) {
+module.exports = postcss.plugin('postcss-modify-numbers', function (opts) {
     opts = opts || {};
 
     // Work with options here
