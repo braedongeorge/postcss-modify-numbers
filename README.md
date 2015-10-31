@@ -27,7 +27,7 @@ postcss([
 ```css
 /* Input example */
 .foo {
-    width: 50px;
+    width: 50px; 
     height: 30px;
 }
 
@@ -40,12 +40,12 @@ postcss([
 ```css
 /* Output example */
 .foo {
-  width: 65px;
+  width: 65px; /* Multiplied by 1.3 */
   height: 30px;
 }
 
 .bar {
-    width: 130px;
+    width: 130px; /* Multiplied by 1.3 */
     height: 60px;
 }
 ```
