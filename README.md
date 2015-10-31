@@ -15,11 +15,13 @@ $ npm install postcss-modify-numbers
 ## Usage
 
 ```js
-postcss([ require('postcss-modify-numbers')({
-    property: "width",
-    operation: "multiply",
-    number: "1.3"
-}])
+postcss([
+    require('postcss-modify-numbers')({
+        property: "width",
+        operation: "multiply",
+        number: "1.3"
+    })
+])
 ```
 
 ```css
@@ -53,7 +55,7 @@ postcss([ require('postcss-modify-numbers')({
 What CSS property you would like to affect, currently only supports one.
 
 ### Operation
-What operation you would like to perform e.g ('add','subtract','divide','multiple')
+What operation you would like to perform ('add','subtract','divide','multiple')
 
 ### Number
 The number you would like modify the number by
