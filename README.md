@@ -2,6 +2,12 @@
 
 [PostCSS] plugin that performs math operations on all numbers with a certain property.
 
+## Installation
+
+```console
+$ npm install postcss-modify-numbers
+```
+
 [PostCSS]: https://github.com/postcss/postcss
 [ci-img]:  https://travis-ci.org/braedongeorge/postcss-modify-numbers.svg
 [ci]:      https://travis-ci.org/braedongeorge/postcss-modify-numbers
