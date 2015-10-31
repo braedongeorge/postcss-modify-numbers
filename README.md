@@ -12,6 +12,16 @@ $ npm install postcss-modify-numbers
 [ci-img]:  https://travis-ci.org/braedongeorge/postcss-modify-numbers.svg
 [ci]:      https://travis-ci.org/braedongeorge/postcss-modify-numbers
 
+## Usage
+
+```js
+postcss([ require('postcss-modify-numbers')({
+    property: "width",
+    operation: "multiply",
+    number: "1.3"
+}])
+```
+
 ```css
 /* Input example */
 .foo {
@@ -36,16 +46,6 @@ $ npm install postcss-modify-numbers
     width: 130px;
     height: 60px;
 }
-```
-
-## Usage
-
-```js
-postcss([ require('postcss-modify-numbers')({
-    property: "width",
-    operation: "multiply",
-    number: "1.3"
-}])
 ```
 
 ## Options
