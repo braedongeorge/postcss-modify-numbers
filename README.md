@@ -19,7 +19,7 @@ postcss([
     require('postcss-modify-numbers')({
         property: "width",
         operation: "multiply",
-        number: "1.3"
+        number: 1.3
     })
 ])
 ```
